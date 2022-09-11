@@ -1,0 +1,74 @@
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+table,
+td,
+th {
+  border: 2px solid black;
+}
+
+.cols2 {
+  height: 2rem;
+}
+
+.cols4 {
+  height: 2rem;
+  width: 1rem;
+}
+
+.first_row {
+  background-color: #198f8f;
+}
+
+.first_row:hover {
+  background-color: #e67070;
+}
+
+.second_row {
+  background-color: #f5f519;
+}
+
+.second_row:hover {
+  background-color: #0a0ae6;
+}
+
+.flag_first {
+    display: table-cell;
+  background-color: white;
+  border: 1px solid black;
+  width: 350px;
+  height: 200px;
+}
+
+.circle_first {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+}
+
+.flag_second {
+    display: table-cell;
+  background-color: white;
+  border: 1px solid black;
+  width: 350px;
+  height: 200px;
+}
+
+.circle_second {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  transform: translateX(8rem) translateY(-3rem);
+}
+
+.rows {
+    display: table;
+}
